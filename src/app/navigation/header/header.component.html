@@ -1,4 +1,13 @@
-<mat-toolbar color="primary">
-    <button mat-icon-button (click)="toggleSidebar()"><mat-icon>menu</mat-icon></button>
-    <p>LOGO</p>
+<mat-toolbar color="primary" id="header">
+    <!-- <button mat-icon-button (click)="toggleSidebar()"><mat-icon>menu</mat-icon></button> -->
+    <h1>LOGO</h1>
+    <div class="menu">
+        <a class="menu-item" href="#">EGP</a>
+        <img class="menu-item"
+            src="https://r-cf.bstatic.com/static/img/flags/24/gb/b2f01d4fd94cb1420fcdbbef62c06ade1026fbbd.png"
+            alt="English (UK)">
+        <button class="menu-item" mat-stroked-button>List You Property</button>
+        <button class="menu-item" mat-raised-button>Register</button>
+        <button class="menu-item" mat-raised-button>Sign In</button>
+    </div>
 </mat-toolbar>

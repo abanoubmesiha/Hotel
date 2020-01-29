@@ -1,0 +1,14 @@
+
+.mat-stroked-button:not([disabled]) {
+    border-color:rgb(255, 255, 255);
+}
+.menu-item {
+    margin-right: 5px;
+}
+a.menu-item {
+color: #fff;
+}
+.menu {
+    position: absolute;
+    right: 50px;
+}
